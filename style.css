@@ -1,9 +1,5 @@
-.header {
+body {
   background-color: #1f2937;
-}
-
-.info {
-  background-color: white;
 }
 
 header {
@@ -103,10 +99,11 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 
 .info-header {
+  padding: 25px;
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
@@ -116,7 +113,7 @@ ul {
 
 .info-container {
   padding: 50px;
-  gap: 25px;
+  gap: 50px;
   flex-direction: row;
   display: flex;
   justify-content: center;
@@ -128,8 +125,85 @@ ul {
   color: #1f2937;
   font-size: 12px;
   max-width: 100px;
-  display: flex;
   text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-text-block {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  max-width: 800px;
+  text-align: center;
+}
+
+.quote-text {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: right;
+  margin-left: 30%;
+  margin-bottom: 50px;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 50px;
+}
+
+.call-to-action-box {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 800px;
+  border-radius: 25px;
+  padding: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #3882f6;
+}
+
+.call-to-action-button {
+  border: white;
+  border-style: solid;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  margin: 2px 5px;
+  align-self: left;
+  border-radius: 5px;
+  max-width: 100px;
+  font-weight: bold;
+}
+
+.call-to-action-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-weight: 700;
+}
+
+h1 {
+  font-weight: 700;
 }
 
 .left,
